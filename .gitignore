@@ -2,3 +2,6 @@ config.env
 samples/
 hashes/
 .ipynb_checkpoints/
+pdf/
+script/
+slides/

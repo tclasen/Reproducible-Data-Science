@@ -1,3 +1,4 @@
 config.env
 samples/
 hashes/
+.ipynb_checkpoints/

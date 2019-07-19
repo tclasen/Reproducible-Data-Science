@@ -2,9 +2,7 @@
 
 source config.env
 
-docker run \
-    --rm \
-    -it \
+docker run --rm -it \
     -p 8080:8888 \
     -v "$PWD":/home/jovyan/work \
     --name jupyter \

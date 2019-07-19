@@ -5,9 +5,7 @@ source config.env
 if [ ! -d hashes ]; then
     mkdir hashes
 
-    docker run \
-        --rm \
-        -it \
+    docker run --rm -it \
         -v "$PWD"/samples:/archive \
         -v "$PWD"/hashes:/hashes \
         -w /hashes \
